@@ -34,8 +34,7 @@ void loop()
     delay(1000);
     digitalWrite(MY_LED, LOW);
     //delay between letters
-    delay(5000);
-    
+    delay(2000);
 	//R . - .
 	//short
 	digitalWrite(MY_LED, HIGH);
@@ -52,8 +51,7 @@ void loop()
     delay(1000);
     digitalWrite(MY_LED, LOW);
      //delay between letters
-    delay(5000);
-    
+    delay(2000);
 	//A .-
 	//short
 	digitalWrite(MY_LED, HIGH);
@@ -65,7 +63,7 @@ void loop()
     delay(3000);
     digitalWrite(MY_LED, LOW);
      //delay between letters
-    delay(5000);
+    delay(2000);
 	
 	//D - ..
 	//long
@@ -78,13 +76,13 @@ void loop()
     delay(1000);
     digitalWrite(MY_LED, LOW);
      //delay between letters
-    delay(5000);
+    delay(2000);
     //short
     digitalWrite(MY_LED, HIGH);
     delay(1000);
     digitalWrite(MY_LED, LOW);
      //delay between letters
-    delay(5000);
+    delay(2000);
 	
 	//E .
 	//short
@@ -92,8 +90,7 @@ void loop()
     delay(1000);
     digitalWrite(MY_LED, LOW);
     //Ending Delay
-    delay(10000);
-    
+    delay(5000);
 }
 
 	
