@@ -1,0 +1,96 @@
+const pin_t MY_LED = D7;
+
+
+SYSTEM_THREAD(ENABLED);
+
+
+void setup()
+{
+	
+	pinMode(MY_LED, OUTPUT);
+}
+
+
+void loop()
+{
+    //B - . . . 
+    //Long
+	digitalWrite(MY_LED, HIGH);
+    delay(3000);
+    digitalWrite(MY_LED, LOW);
+    delay(500);
+    //short
+    digitalWrite(MY_LED, HIGH);
+    delay(1000);
+    digitalWrite(MY_LED, LOW);
+    delay(500);
+    //short
+    digitalWrite(MY_LED, HIGH);
+    delay(1000);
+    digitalWrite(MY_LED, LOW);
+    delay(500);
+    //short
+    digitalWrite(MY_LED, HIGH);
+    delay(1000);
+    digitalWrite(MY_LED, LOW);
+    //delay between letters
+    delay(5000);
+	//R . - .
+	//short
+	digitalWrite(MY_LED, HIGH);
+    delay(1000);
+    digitalWrite(MY_LED, LOW);
+    delay(500);
+    //long
+    digitalWrite(MY_LED, HIGH);
+    delay(3000);
+    digitalWrite(MY_LED, LOW);
+    delay(500);
+    //short
+    digitalWrite(MY_LED, HIGH);
+    delay(1000);
+    digitalWrite(MY_LED, LOW);
+     //delay between letters
+    delay(5000);
+	//A .-
+	//short
+	digitalWrite(MY_LED, HIGH);
+    delay(1000);
+    digitalWrite(MY_LED, LOW);
+    delay(500);
+    //long
+    digitalWrite(MY_LED, HIGH);
+    delay(3000);
+    digitalWrite(MY_LED, LOW);
+     //delay between letters
+    delay(5000);
+	
+	//D - ..
+	//long
+	digitalWrite(MY_LED, HIGH);
+    delay(3000);
+    digitalWrite(MY_LED, LOW);
+    delay(500);
+    //short
+    digitalWrite(MY_LED, HIGH);
+    delay(1000);
+    digitalWrite(MY_LED, LOW);
+     //delay between letters
+    delay(5000);
+    //short
+    digitalWrite(MY_LED, HIGH);
+    delay(1000);
+    digitalWrite(MY_LED, LOW);
+     //delay between letters
+    delay(5000);
+	
+	//E .
+	//short
+	digitalWrite(MY_LED, HIGH);
+    delay(1000);
+    digitalWrite(MY_LED, LOW);
+    //Ending Delay
+    delay(10000);
+}
+
+	
