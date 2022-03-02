@@ -35,6 +35,7 @@ void loop()
     digitalWrite(MY_LED, LOW);
     //delay between letters
     delay(5000);
+    
 	//R . - .
 	//short
 	digitalWrite(MY_LED, HIGH);
@@ -52,6 +53,7 @@ void loop()
     digitalWrite(MY_LED, LOW);
      //delay between letters
     delay(5000);
+    
 	//A .-
 	//short
 	digitalWrite(MY_LED, HIGH);
